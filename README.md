@@ -1,1 +1,1 @@
-# owu_homework
+# Home work Okten Web University - JavaScript Complex
