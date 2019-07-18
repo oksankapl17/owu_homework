@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Literata', serif;
+    font-size: 14px;
+}
+
+article {
+    font-size: 16px;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8A2BE2;
+    letter-spacing: 2px;
+}
+
+#img-rose {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rose, #shop {
+    width: 100%;
+    height: auto;
+    max-width: 33.33333%;
+}
+
+.info > p > .text {
+    color: #87CEFA;
+}
+
+h2.repeat + p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+img[alt="rose-shop"] {
+    border: 3px solid black;
+}
+
+h2::before {
+    content: '\1F339';
+}
+
+h2::after {
+    content: '\1F339'
+}
+
+.shop li:nth-child(3n+2) {
+    font-weight: bold;
+    font-style: italic;
+    color: #EE82EE;
+}
+
+.shop li:last-child {
+    color: #66CDAA;
+    font-weight: bolder;
+}
+
+.shop li:first-child {
+    color: #D2691E;
+    font-weight: lighter;
+}
+
+.start-menu {
+    display: block;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.list > li a:hover {
+    color: #00FFFF;
+}
+
+.list > li a:active {
+    color: #7CFC00;
+}
+
+.list > li a {
+    color: #0000FF;
+}
+
+/*.list > li a:visited {
+    color: #E6E6FA;
+}*/
+
+.button-shop {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+
+}
+
+.button-shop:hover {
+    background: rgb(53, 167, 110);
+    cursor: pointer;
+
+}
+
+.button-shop:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+
+}
+
+aside, body {
+    display: flex;
+}
+
+body{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex-direction: column;
+    width: 20%;
+}
+
+main {
+    width: 80%;
+}
+header, footer {
+    width: 100%;
+}
+.nav-up li a {
+    padding: 15px;
+    display: block;
+}
