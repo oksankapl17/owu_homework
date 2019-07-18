@@ -1,0 +1,9 @@
+ol { counter-reset: item }
+li { display: block }
+li:before { content: counters(item, ".") " "; counter-increment: item }
+
+img, .wiki   {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+}
