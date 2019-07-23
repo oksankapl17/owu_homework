@@ -2,80 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Garden roses - Wikipedia</title>
     <link href="./style.css" rel="stylesheet">
 
 </head>
 <body>
-<aside>
+<!-- Aside  -->
+<aside class="menu-left">
     <img alt="book" class="wiki" src="./images/wiki.png">
     <nav class="menu-aside">
+        <div class="left-menu">
+            <ul>
+                <li><a href="#">Main page</a></li>
+                <li><a href="#">Contents</a></li>
+                <li><a href="#">Featured content</a></li>
+                <li><a href="#">Current events</a></li>
+                <li><a href="#">Random article</a></li>
+                <li><a href="#">Donate to Wikipedia</a></li>
+                <li><a href="#">Wikipedia store</a></li>
+            </ul>
+            <p>Interaction</p>
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">About Wikipedia</a></li>
+                <li><a href="#">Community portal</a></li>
+                <li><a href="#">Recent changes</a></li>
+                <li><a href="#">Contact page</a></li>
+            </ul>
+            <p>Tools</p>
+            <ul>
+                <li><a href="#">What links here</a></li>
+                <li><a href="#">Related changes</a></li>
+                <li><a href="#">Upload file</a></li>
+                <li><a href="#">Special pages</a></li>
+                <li><a href="#">Permanent link</a></li>
+                <li><a href="#">Page information</a></li>
+                <li><a href="#">Wikidata item</a></li>
+                <li><a href="#">Cite this page</a></li>
+            </ul>
+            <p>In other projects</p>
+            <ul>
+                <li><a href="#">Wikimedia Commons</a></li>
+            </ul>
 
-        <ul>
-            <li><a href="#">Main page</a></li>
-            <li><a href="#">Contents</a></li>
-            <li><a href="#">Featured content</a></li>
-            <li><a href="#">Current events</a></li>
-            <li><a href="#">Random article</a></li>
-            <li><a href="#">Donate to Wikipedia</a></li>
-            <li><a href="#">Wikipedia store</a></li>
-        </ul>
-        <p>Interaction</p>
-        <hr>
-        <ul>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">About Wikipedia</a></li>
-            <li><a href="#">Community portal</a></li>
-            <li><a href="#">Recent changes</a></li>
-            <li><a href="#">Contact page</a></li>
-        </ul>
-        <p>Tools</p>
-        <hr>
-        <ul>
-            <li><a href="#">What links here</a></li>
-            <li><a href="#">Related changes</a></li>
-            <li><a href="#">Upload file</a></li>
-            <li><a href="#">Special pages</a></li>
-            <li><a href="#">Permanent link</a></li>
-            <li><a href="#">Page information</a></li>
-            <li><a href="#">Wikidata item</a></li>
-            <li><a href="#">Cite this page</a></li>
-        </ul>
-        <p>In other projects</p>
-        <hr>
-        <ul>
-            <li><a href="#">Wikimedia Commons</a></li>
-        </ul>
+            <p>Print/export</p>
+            <ul>
+                <li><a href="#">Create a book</a></li>
+                <li><a href="#">Download as PDF</a></li>
+                <li><a href="#">Printable version</a></li>
+            </ul>
 
-        <p>Print/export</p>
-        <ul>
-            <li><a href="#">Create a book</a></li>
-            <li><a href="#">Download as PDF</a></li>
-            <li><a href="#">Printable version</a></li>
-        </ul>
-
-        <p>Languages</p>
-        <ul>
-            <li><a href="#">Azərbaycanca</a></li>
-            <li><a href="#">Deutsch</a></li>
-            <li><a href="#">Eesti</a></li>
-            <li><a href="#">Esperanto</a></li>
-            <li><a href="#">فارسی</a></li>
-            <li><a href="#">Français</a></li>
-            <li><a href="#">Հայերեն</a></li>
-            <li><a href="#">Русский</a></li>
-            <li><a href="#">Українська</a></li>
-        </ul>
-        <button>
-            10 more
-        </button>
+            <p>Languages</p>
+            <ul>
+                <li><a href="#">Azərbaycanca</a></li>
+                <li><a href="#">Deutsch</a></li>
+                <li><a href="#">Eesti</a></li>
+                <li><a href="#">Esperanto</a></li>
+                <li><a href="#">فارسی</a></li>
+                <li><a href="#">Français</a></li>
+                <li><a href="#">Հայերեն</a></li>
+                <li><a href="#">Русский</a></li>
+                <li><a href="#">Українська</a></li>
+            </ul>
+            <button>
+                10 more
+            </button>
+        </div>
     </nav>
 </aside>
 <main>
+    <!-- Header -->
     <header>
-        <nav class="menu">
-            <ul>
+        <nav>
+            <ul class="menu flex-row">
                 <li><a href="https://en.wikipedia.org/wiki/User_talk:178.92.34.134">Talk</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Special:Contributions/178.92.34.134">Contributions</a></li>
                 <li><a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Garden+roses">Create
@@ -86,25 +86,45 @@
                 </li>
             </ul>
         </nav>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="https://en.wikipedia.org/wiki/Garden_roses">Article</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Talk:Garden_roses">Talk</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Garden_roses">Read</a></li>
-                <li><a href="https://en.wikipedia.org/w/index.php?title=Garden_roses&action=edit">Edit</a></li>
-                <li><a href="https://en.wikipedia.org/w/index.php?title=Garden_roses&action=history">View history</a>
-                </li>
-                <li><a href="#">Search Wikipedia</a></li>
-            </ul>
+        <nav>
+            <div class="main-menu flex-row">
+                <ul class="flex-row">
+                    <li><a href="https://en.wikipedia.org/wiki/Garden_roses">Article</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Talk:Garden_roses">Talk</a></li>
+                </ul>
+                <div class="flex-row align-center">
+                    <ul class="flex-row">
+                        <li><a href="https://en.wikipedia.org/wiki/Garden_roses">Read</a></li>
+                        <li><a href="https://en.wikipedia.org/w/index.php?title=Garden_roses&action=edit">Edit</a></li>
+                        <li><a href="https://en.wikipedia.org/w/index.php?title=Garden_roses&action=history">View
+                            history</a>
+                        </li>
+                    </ul>
+                    <form action="" method="get">
+                        <div class="search-form">
+                            <label>
+                                <input class="input-menu" placeholder="Search Wikipedia" type="text">
+                            </label>
+                            <button class="button-menu" type="submit">&#128269;
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
         </nav>
     </header>
-
-    <article>
+    <!-- Article -->
+    <article class="article">
         <h1>Garden roses</h1>
         <hr>
+        <div class="text">From Wikipedia, the free encyclopedia</div>
         <section>
-            <h4>From Wikipedia, the free encyclopedia</h4>
-            <div id="intro">
+            <figure class="right-img h-image">
+                <img alt="Rose" src="./images/rosa.jpg">
+                <figcaption>The Hybrid Tea rose, 'Peer Gynt'</figcaption>
+            </figure>
+            <div class="intro">
                 <b>Garden roses</b> are predominantly <a
                     href="https://en.wikipedia.org/wiki/Hybrid_(biology)">hybrid</a> <a
                     href="https://en.wikipedia.org/wiki/Rose">roses</a> that are grown as
@@ -119,83 +139,82 @@
                 valued for other reasons, such as having ornamental fruit, providing
                 <a href="#">ground cover</a> , or for <a href="#">hedging</a> .
             </div>
+            <!-- Contents menu -->
+            <div class="content">
+                <h4><strong>Contents</strong> <span>[<a href="#">hide</a>]</span></h4>
+                <ol>
+                    <li><a href="#menu-history">History</a></li>
+                    <li><a href="#">Features</a>
+                        <ol>
+                            <li><a href="#">Colour of flowers</a></li>
+                        </ol>
+                    </li>
+
+                    <li><a href="#">Classification</a>
+                        <ol>
+                            <li><a href="#">Wild roses</a></li>
+                            <li><a href="#">Old garden roses</a>
+                                <ol>
+                                    <li><a href="#">Alba</a></li>
+                                    <li><a href="#">Gallica</a></li>
+                                    <li><a href="#">Damask</a></li>
+                                    <li><a href="#">Centifolia or Provence</a></li>
+                                    <li><a href="#">Moss</a></li>
+                                    <li><a href="#">Portland</a></li>
+                                    <li><a href="#">China</a></li>
+                                    <li><a href="#">Tea</a></li>
+                                    <li><a href="#">Bourbons</a></li>
+                                    <li><a href="#">Noisette</a></li>
+                                    <li><a href="#">Hybrid perpetual</a></li>
+                                    <li><a href="#">Hybrid musk</a></li>
+                                    <li><a href="#">Hybrid rugosa</a></li>
+                                    <li><a href="#">Bermuda "Mystery" roses</a></li>
+                                    <li><a href="#">Miscellaneous</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="#">Modern garden roses</a>
+                                <ol>
+                                    <li><a href="#">Hybrid tea</a></li>
+                                    <li><a href="#">Pernetiana</a></li>
+                                    <li><a href="#">Polyantha</a></li>
+                                    <li><a href="#">Floribunda</a></li>
+                                    <li><a href="#">Grandiflora</a></li>
+                                    <li><a href="#">Miniature</a></li>
+                                    <li><a href="#">Climbing and rambling</a></li>
+                                    <li><a href="#">Shrub</a></li>
+                                    <li><a href="#">English / David Austin</a></li>
+                                    <li><a href="#">Canadian Hardy</a></li>
+                                    <li><a href="#">Landscape (Ground Cover)</a></li>
+                                    <li><a href="#">Patio</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="#">Cultivation</a>
+                                <ol>
+                                    <li><a href="#">Pruning</a></li>
+                                    <li><a href="#">Deadheading</a></li>
+                                    <li><a href="#">Pests and diseases</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="#">Notable rose growers</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">See also</a></li>
+                            <li><a href="#">References</a>
+                                <ol>
+                                    <li><a href="#">Bibliography</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="#">External links</a></li>
+
+                        </ol>
+                    </li>
+
+                </ol>
+            </div>
         </section>
-        <figure>
-            <img alt="Rose" src="./images/rosa.jpg">
-            <figcaption>The Hybrid Tea rose, 'Peer Gynt'</figcaption>
-        </figure>
+
+
         <section>
-            <h4><strong>Contents</strong> <span>[<a href="#">Hide</a>]</span></h4>
-            <ol>
-                <li><a href="#menu-history">History</a></li>
-                <li>Features
-                    <ol>
-                        <li>Colour of flowers</li>
-                    </ol>
-                </li>
-
-                <li>Classification
-                    <ol>
-                        <li>Wild roses</li>
-                        <li>Old garden roses
-                            <ol>
-                                <li>Alba</li>
-                                <li>Gallica</li>
-                                <li>Damask</li>
-                                <li>Centifolia or Provence</li>
-                                <li>Moss</li>
-                                <li>Portland</li>
-                                <li>China</li>
-                                <li>Tea</li>
-                                <li>Bourbons</li>
-                                <li>Noisette</li>
-                                <li>Hybrid perpetual</li>
-                                <li>Hybrid musk</li>
-                                <li>Hybrid rugosa</li>
-                                <li>Bermuda "Mystery" roses</li>
-                                <li>Miscellaneous</li>
-                            </ol>
-                        </li>
-                        <li>Modern garden roses
-                            <ol>
-                                <li>Hybrid tea</li>
-                                <li>Pernetiana</li>
-                                <li>Polyantha</li>
-                                <li>Floribunda</li>
-                                <li>Grandiflora</li>
-                                <li>Miniature</li>
-                                <li>Climbing and rambling</li>
-                                <li>Shrub</li>
-                                <li>English / David Austin</li>
-                                <li>Canadian Hardy</li>
-                                <li>Landscape (Ground Cover)</li>
-                                <li>Patio</li>
-                            </ol>
-                        </li>
-                        <li>Cultivation
-                            <ol>
-                                <li>Pruning</li>
-                                <li>Deadheading</li>
-                                <li>Pests and diseases</li>
-                            </ol>
-                        </li>
-                        <li>Notable rose growers</li>
-                        <li>Gallery</li>
-                        <li>See also</li>
-                        <li>References
-                            <ol>
-                                <li>Bibliography</li>
-                            </ol>
-                        </li>
-                        <li>External links</li>
-
-                    </ol>
-                </li>
-
-            </ol>
-        </section>
-        <section>
-            <h2 id="menu-history">History</h2>
+            <h2>History</h2>
             <hr>
             <p>It is believed that roses were grown in many the early civilisations of temperate latitudes from at least
                 5000 years ago. They are known to have been grown in ancient <a href="#">Babylon.</a><a href="#"><sup>[1]</sup></a>
@@ -249,7 +268,7 @@
             <h3>
                 <b>Colour of flowers</b>
             </h3>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="Yellow Rose" src="./images/colour.jpg">
                 <figcaption>An amber-coloured rose</figcaption>
             </figure>
@@ -283,7 +302,7 @@
         </section>
         <section>
             <h3><b>Wild roses</b></h3>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="plant" src="./images/wild.jpg">
                 <figcaption>The spring-flowering pimpinellifolia 'Rosa Altaica', underplanted with lamium</figcaption>
             </figure>
@@ -326,7 +345,7 @@
         </section>
         <section>
             <h4><b>Alba</b></h4>
-            <figure>
+            <figure class="right-img v-image">
                 <img alt="white rose" src="./images/alba.jpg">
                 <figcaption>'Maiden's Blush', an Alba rose (before 1400)</figcaption>
             </figure>
@@ -342,7 +361,7 @@
         </section>
         <section>
             <h4><b>Gallica</b></h4>
-            <figure>
+            <figure class="left-img h-image">
                 <img alt="white rose" src="./images/gallica.jpg">
                 <figcaption>Gallica rose 'Charles de Mills', ante 1790</figcaption>
             </figure>
@@ -362,7 +381,7 @@
         </section>
         <section>
             <h4><b>Damask</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="white rose" src="./images/damask.jpg">
                 <figcaption>'Autumn Damask' ('Quatre Saisons')</figcaption>
             </figure>
@@ -436,7 +455,7 @@
         </section>
         <section>
             <h4><b>China</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="white rose" src="./images/china.jpg">
                 <figcaption>'Parson's Pink China' or 'Old Blush,' one of the "stud Chinas"</figcaption>
             </figure>
@@ -475,7 +494,7 @@
         </section>
         <section>
             <h4><b>Tea</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="tea rose" src="./images/tea.jpeg">
                 <figcaption>Tea rose 'Mrs Dudley Cross' (Paul 1907)</figcaption>
             </figure>
@@ -509,7 +528,7 @@
         </section>
         <section>
             <h4><b>Bourbons</b></h4>
-            <figure>
+            <figure class="left-img v-image">
                 <img alt="rose" src="./images/bourbon.jpg">
                 <figcaption>Bourbon rose Rosa 'Souvenir de la Malmaison' (Béluze 1843)</figcaption>
             </figure>
@@ -526,7 +545,7 @@
         </section>
         <section>
             <h4><b>Noisette</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/noisette.jpg">
                 <figcaption>Noisette rose 'Desprez à fleurs jaunes' (Desprez 1830)</figcaption>
             </figure>
@@ -547,7 +566,7 @@
         </section>
         <section>
             <h4><b>Hybrid perpetual</b></h4>
-            <figure>
+            <figure class="left-img h-image">
                 <img alt="rose" src="./images/hybrid.jpg">
                 <figcaption>Hybrid perpetual rose 'La Reine' (Laffay 1844)</figcaption>
             </figure>
@@ -583,7 +602,7 @@
         </section>
         <section>
             <h4><b>Hybrid musk</b></h4>
-            <figure>
+            <figure class="right-img v-image">
                 <img alt="rose" src="./images/musk.jpeg">
                 <figcaption>Hybrid musk rose 'Moonlight' (Pemberton 1913)</figcaption>
             </figure>
@@ -607,7 +626,7 @@
         </section>
         <section>
             <h4><b>Hybrid rugosa</b></h4>
-            <figure>
+            <figure class="left-img v-image">
                 <img alt="rose" src="./images/rugosa.jpg">
                 <figcaption>Rugosa rose 'Blanc Double de Coubert' (Cochet 1893)</figcaption>
             </figure>
@@ -656,7 +675,7 @@
         </section>
         <section>
             <h4><b>Hybrid tea</b></h4>
-            <figure>
+            <figure class="right-img v-image">
                 <img alt="rose" src="./images/hybridtea.jpg">
                 <figcaption>A 'Memoriam' hybrid tea rose (von Abrams 1962)</figcaption>
             </figure>
@@ -686,7 +705,7 @@
         </section>
         <section>
             <h4><b>Pernetiana</b></h4>
-            <figure>
+            <figure class="left-img h-image">
                 <img alt="rose" src="./images/pernetiana.jpg">
                 <figcaption>Pernetiana rose 'Soleil d'Or', the first of its class (Pernet 1900)</figcaption>
             </figure>
@@ -728,7 +747,7 @@
         <section>
 
             <h4><b>Floribunda</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/floribunda.jpg">
                 <figcaption>Rosa 'Borussia', a modern floribunda rose</figcaption>
             </figure>
@@ -776,7 +795,7 @@
         </section>
         <section>
             <h4><b>Miniature</b></h4>
-            <figure>
+            <figure class="right-img v-image">
                 <img alt="rose" src="./images/miniature.jpg">
                 <figcaption>'Meillandine' (a miniature rose) in a terracotta flowerpot</figcaption>
             </figure>
@@ -807,7 +826,7 @@
         </section>
         <section>
             <h4><b>Climbing and rambling</b></h4>
-            <figure>
+            <figure class="left-img v-image">
                 <img alt="rose" src="./images/climbing.jpg">
                 <figcaption>Rosa 'Zéphirine Drouhin', a climbing Bourbon rose (Bizot 1868)</figcaption>
             </figure>
@@ -824,7 +843,7 @@
                 canes are long and flexible, i. e. "climbing." Most Climbing Roses grow 6–20 feet tall and exhibit
                 repeat
                 blooming.[21]</p>
-            <figure>
+            <figure class="right-img v-image">
                 <img alt="rose" src="./images/climbing1.jpg">
                 <figcaption>The "Peggy Martin Rose" survived 20 feet of salt water over the garden of Mrs. Peggy Martin,
                     Plaquemines Parish, Louisiana, after Hurricane Katrina. It's a thornless climbing rose.
@@ -848,7 +867,7 @@
         </section>
         <section>
             <h4><b>Shrub</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/shrub.jpg">
                 <figcaption>The shrub rose 'Mollineux'</figcaption>
             </figure>
@@ -864,7 +883,7 @@
         </section>
         <section>
             <h4><b>English / David Austin</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/austin.jpg">
                 <figcaption>Austin rose 'Abraham Darby' (1985)</figcaption>
             </figure>
@@ -919,7 +938,7 @@
                 'J.P. Connell' (1987), 'Captain Samuel Holland' (1992), 'Frontenac' (1992), 'Louis Jolliet' (1992),
                 'Simon
                 Fraser' (1992), 'George Vancouver' (1994), 'William Booth' (1999).[25]</p>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/explorer.jpg">
                 <figcaption>Rosa 'Henry Hudson', one of the Explorer series</figcaption>
             </figure>
@@ -930,7 +949,7 @@
             <p>Other notable Canadian breeders include Frank Skinner, Percy Wright, Isabella Preston, Georges Bugnet
                 and
                 Robert Erskine.</p>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/bugnet.jpg">
                 <figcaption>'Thérèse Bugnet', a multi-species hybrid that is still widely available (Bugnet 1950)[23]
                 </figcaption>
@@ -938,7 +957,7 @@
         </section>
         <section>
             <h4><b>Landscape (Ground Cover)</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/avon.jpeg">
                 <figcaption>Avon', a ground cover rose introduced by Poulson in 1992</figcaption>
             </figure>
@@ -967,7 +986,7 @@
         <section>
 
             <h4><b>Patio</b></h4>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/open.jpeg">
                 <figcaption>Chris Warner's patio climber 'Open Arms' (1995)</figcaption>
             </figure>
@@ -999,7 +1018,7 @@
                 high (typically 1 metre or more) on a rose rootstock, resulting in extra height which can make a
                 dominant feature in a floral display. Climbing roses are usually trained to a suitable
                 support.[8]</p>
-            <figure>
+            <figure class="right-img h-image">
                 <img alt="rose" src="./images/protect.jpg">
                 <figcaption>Roses with protection against freezing</figcaption>
             </figure>
@@ -1196,9 +1215,59 @@
                 </li>
             </ul>
         </section>
+        <section>
+            <h2>Gallery</h2>
+            <hr/>
+            <div class="gallery flex-row">
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g1.JPG"></div>
+                </div>
+                <div>
+                    <div class="gv-image"><img alt="rose" src="./images/g2.JPG"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g3.JPG"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g4.jpg"></div>
+                </div>
+                <div>
+                    <div class="gv-image"><img alt="rose" src="./images/g5.JPG"></div>
+                </div>
+                <div>
+                    <div class="gv-image"><img alt="rose" src="./images/g6.jpg"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g7.JPG"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g8.JPG"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g9.JPG"></div>
+                </div>
+                <div>
+                    <div class="gv-image"><img alt="rose" src="./images/g10.JPG"></div>
+                </div>
+                <div>
+                    <div class="gv-image"><img alt="rose" src="./images/g11.jpg"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g12.jpg"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g13.jpg"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g14.jpg"></div>
+                </div>
+                <div>
+                    <div class="gh-image"><img alt="rose" src="./images/g15.jpg"></div>
+                </div>
+            </div>
+        </section>
 
-        <h2>Gallery</h2>
-        <hr/>
+
         <section>
             <h2>See also</h2>
             <ul>
@@ -1214,6 +1283,7 @@
         </section>
         <section>
             <h2>References</h2>
+            <hr>
             <ol>
                 <li> "Plants: Roses: History". Kew. Archived from the original on 2012-01-15. Retrieved
                     2011-12-16.
