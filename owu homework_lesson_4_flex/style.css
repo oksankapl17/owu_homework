@@ -1,0 +1,74 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+/*COLORS*/
+.yellow-bg {
+    background-color: #ECF523;
+}
+.green-bg {
+    background-color: #2ECC71;
+}
+
+.pink-bg {
+    background-color: #FBBBF0;
+}
+
+.blue-bg {
+    background-color: #23E2F5
+}
+
+.torquise-bg {
+    background-color: #23F5D2;
+}
+
+.light-blue-bg  {
+    background-color: #00FFFF;
+}
+.bordered {
+    border: 1px solid #000000;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.block-one, .block-three {
+    flex-basis: 300px;
+}
+
+/*   Header  */
+
+/*header nav {*/
+    /*height: 100px;*/
+/*}*/
+
+.logo {
+    flex-basis: 250px;
+}
+img {
+    height: 100%;
+    padding-right: 8px;
+}
+
+/*   Footer  */
+.bottom {
+    flex-grow: 1;
+    height: 100px;
+}
+
+

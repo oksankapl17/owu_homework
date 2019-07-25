@@ -187,13 +187,6 @@ input {
 }
 
 
-
-.right-img {
-    float: right;
-    margin: 0;
-    border: 1px solid;
-}
-
 .h-image {
     max-width: 20%;
 }
@@ -207,14 +200,33 @@ input {
 .article h1 {
     margin-top: 0;
 }
+
+
+/*Image*/
+
+figcaption {
+    font-size: 12.3px;
+}
+figure {
+    background-color: #EDEDED;
+    border: 1px solid #C8CDD2;
+    padding:3px ;
+}
 .v-image {
     max-width: 15%;
 }
 
+.right-img {
+    float: right;
+    margin: 0 0 10px 10px;
+    border: 1px solid #C8CDD2;
+;
+}
 .left-img {
     float: left;
-    margin: 0;
-    border: 1px solid;
+    margin: 0 10px 10px 0;
+    border: 1px solid #C8CDD2;
+
 }
 
 .gallery {
@@ -306,3 +318,72 @@ nav.menu-aside hr {
     margin: 0 0 0.3em;
     text-align: center;
 }
+/*Before Footer*/
+ul.category {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid rgb(162, 169, 177);
+    margin: 14px 0 0 0;
+    padding: 5px;
+    background-color: #F6F6F6;
+}
+
+ul.category li {
+    padding: 0;
+    margin: 2px 0;
+}
+
+ul.category li:not(:last-of-type):after{
+    content: "|";
+    margin: 0 7px;
+    font-size: 14px;
+    color: rgb(162, 169, 177);
+
+}
+
+ul.vte li:not(:last-of-type):after{
+    content: "\00B7";
+    margin: 0 7px;
+
+}
+
+ul.vte {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul.pink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(162, 169, 177);
+    background-color: #FF80DF;
+
+}
+
+
+/* Footer*/
+
+footer {
+    padding: 20px;
+    margin: 0 0 0 176px;
+}
+
+nav.bottom-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+nav.bottom-menu ul li {
+    padding: 6px 0;
+    margin: 0 11.2px 0 0;
+}
+
+
+
+
+
+/* Text align and img*/
+
