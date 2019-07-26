@@ -1,3 +1,5 @@
+/*  Flex */
+
 .d-flex {
     display: flex;
 }
@@ -15,9 +17,11 @@
 }
 
 /*COLORS*/
+
 .yellow-bg {
     background-color: #ECF523;
 }
+
 .green-bg {
     background-color: #2ECC71;
 }
@@ -34,12 +38,15 @@
     background-color: #23F5D2;
 }
 
-.light-blue-bg  {
+.light-blue-bg {
     background-color: #00FFFF;
 }
+
 .bordered {
     border: 1px solid #000000;
 }
+
+/*  All */
 
 html, body {
     height: 100%;
@@ -47,22 +54,19 @@ html, body {
     padding: 0;
 }
 
-.block-one, .block-three {
-    flex-basis: 300px;
-}
-
-/*   Header  */
-
-/*header nav {*/
-    /*height: 100px;*/
-/*}*/
-
+/*   Header   */
 .logo {
     flex-basis: 250px;
 }
+
 img {
     height: 100%;
     padding-right: 8px;
+}
+
+/*  Main  */
+.block-one, .block-three {
+    flex-basis: 300px;
 }
 
 /*   Footer  */
