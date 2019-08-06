@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav class="nav d-flex justify-content-between py-3 px-4">
+        <div  class="site-logo">Dark Web</div>
+        <div class="burger">
+            <span></span>
+        </div>
+        <ul class="navbar d-flex">
+            <li><a class="p-3" href="#">Home</a></li>
+            <li><a class="p-3" href="#">About</a></li>
+            <li><a class="p-3" href="#">Gallery</a></li>
+            <li><a class="p-3" href="#">Contacts</a></li>
+        </ul>
+    </nav>
+
+</header>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  jQuery(document).ready(function($) {
+    $('.burger').click(function(){
+      $('.navbar').toggleClass('active');
+    });
+  });
+</script>
+
+</body>
+</html>

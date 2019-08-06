@@ -1,0 +1,61 @@
+
+/*    PlayfairDisplay*/
+@font-face {
+    font-family: "Playfair-regular";
+    src: url("./fonts/Playfair_Display/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: "Playfair-black";
+    src: url("./fonts/Playfair_Display/PlayfairDisplay-Black.ttf");
+}
+@font-face {
+    font-family: "Playfair-black-italic";
+    src: url("./fonts/Playfair_Display/PlayfairDisplay-BlackItalic.ttf");
+}
+@font-face {
+    font-family: "Playfair-bold";
+    src: url("./fonts/Playfair_Display/PlayfairDisplay-Bold.ttf");
+}
+@font-face {
+    font-family: "Playfair-bold-italic";
+    src: url("./fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf");
+}
+@font-face {
+    font-family: "Playfair-italic";
+    src: url("./fonts/Playfair_Display/PlayfairDisplay-Italic.ttf");
+}
+
+/*    Ubuntu    */
+
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("./fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-Bold-italic";
+    src: url("./fonts/Ubuntu/Ubuntu-BoldItalic.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-Italic";
+    src: url("./fonts/Ubuntu/Ubuntu-Italic.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url("./fonts/Ubuntu/Ubuntu-Light.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-light-italic";
+    src: url("./fonts/Ubuntu/Ubuntu-LightItalic.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url("./fonts/Ubuntu/Ubuntu-Medium.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-medium-italic";
+    src: url("./fonts/Ubuntu/Ubuntu-MediumItalic.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-regular";
+    src: url("./fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
