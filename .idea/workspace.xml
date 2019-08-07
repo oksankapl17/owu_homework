@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb861c1-5b93-445b-a2e6-80d22cfe4fd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owu-homework_lesson_5_media/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/owu-homework_lesson_5_media/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owu-homework_lesson_5_media/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/owu-homework_lesson_5_media/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,29 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/owu-homework_lesson_5_media/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/owu-homework_lesson_5_media/style.css">
+        <entry file="file://$PROJECT_DIR$/owu-homework_lesson_6_animations/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="105" column="11" lean-forward="true" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+            <state relative-caret-position="235">
+              <caret line="34" column="32" selection-end-line="53" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Praktyka/Responsive-Site-practyka-30.07/style.css">
+        <entry file="file://$PROJECT_DIR$/owu-homework_lesson_6_animations/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1035">
-              <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+            <state relative-caret-position="15">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -73,6 +62,8 @@
       <list>
         <option value="$PROJECT_DIR$/owu-homework_lesson_5_media/index.html" />
         <option value="$PROJECT_DIR$/owu-homework_lesson_5_media/style.css" />
+        <option value="$PROJECT_DIR$/owu-homework_lesson_6_animations/style.css" />
+        <option value="$PROJECT_DIR$/owu-homework_lesson_6_animations/index.html" />
       </list>
     </option>
   </component>
@@ -97,18 +88,12 @@
             <path>
               <item name="owu_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="owu_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="owu-homework_lesson_5_media" type="462c0819:PsiDirectoryNode" />
+              <item name="owu-homework_lesson_6_animations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="owu_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="owu_homework" type="462c0819:PsiDirectoryNode" />
               <item name="Praktyka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="owu_homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="owu_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="Praktyka" type="462c0819:PsiDirectoryNode" />
-              <item name="Responsive-Site-practyka-30.07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,12 +141,15 @@
       <workItem from="1565022205616" duration="1645000" />
       <workItem from="1565072729376" duration="2809000" />
       <workItem from="1565087799621" duration="1998000" />
-      <workItem from="1565100939902" duration="5816000" />
+      <workItem from="1565100939902" duration="6386000" />
+      <workItem from="1565162641132" duration="4372000" />
+      <workItem from="1565173806036" duration="3958000" />
+      <workItem from="1565187029465" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14063000" />
+    <option name="totallyTimeSpent" value="24358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
@@ -197,22 +185,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Praktyka/Responsive-Site-practyka-30.07/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035">
+        <state relative-caret-position="15">
           <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/owu-homework_lesson_5_media/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        <state relative-caret-position="75">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/owu-homework_lesson_5_media/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="105" column="11" lean-forward="true" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        <state relative-caret-position="94">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owu-homework_lesson_6_animations/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/owu-homework_lesson_6_animations/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="34" column="32" selection-end-line="53" selection-end-column="7" />
         </state>
       </provider>
     </entry>
